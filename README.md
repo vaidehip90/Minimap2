@@ -12,7 +12,9 @@ short read mapping command line ;
 
 time minimap2 -ax sr ref.fasta sample1_R1.fastq.gz  sample2_R2.fastq.gz  > sample.sam 
 
---time command is used to keep track of the run time of minimap.
+--time command is used to keep track of the run time of minimap
+
+-a outputs in SAM format , -x sr option was used for paired end short read
 
 # Samtools
 (Samtools can be used to convert sam to bam files and then sort/index the bam file)
